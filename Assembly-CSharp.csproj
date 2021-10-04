@@ -54,6 +54,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\LERP.cs" />
+    <Compile Include="Assets\Script\SQUASH.cs" />
+    <Compile Include="Assets\Script\STRETCH.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

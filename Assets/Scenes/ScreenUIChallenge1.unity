@@ -404,6 +404,7 @@ GameObject:
   - component: {fileID: 1177355509}
   - component: {fileID: 1177355508}
   - component: {fileID: 1177355507}
+  - component: {fileID: 1177355512}
   m_Layer: 0
   m_Name: Sample
   m_TagString: Untagged
@@ -423,9 +424,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34cbd1587b77d974fa064965cdd82c13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPos: {x: 0, y: 0, z: 0}
+  startPos: {x: -78.3, y: 20.7, z: 0}
   endPos: {x: 4, y: 4, z: 0}
-  expectedTime: 2.7
+  expectedTime: 10
   timeTaken: 0
 --- !u!135 &1177355508
 SphereCollider:
@@ -503,6 +504,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1177355512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1177355506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 006e4121aa2ffd94a9e1282be97d12f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  temp: {x: 6, y: 4, z: 0}
+  expectedTime: 2.7
+  timeTaken: 0
 --- !u!1 &1196052590
 GameObject:
   m_ObjectHideFlags: 0

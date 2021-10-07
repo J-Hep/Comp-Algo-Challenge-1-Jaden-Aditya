@@ -10,7 +10,7 @@ public class LERP : MonoBehaviour
     public Vector3 startPos;
     public Vector3 endPos;
 
-    public float expectedTime = 4.0f, timeTaken;
+    public float expectedTime = 2.7f, timeTaken;
     
 
 

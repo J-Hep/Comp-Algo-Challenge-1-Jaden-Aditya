@@ -12,6 +12,7 @@ public class Keyframing : MonoBehaviour
     public GameObject item;
     public float waitingDuration = 2f;
     public Vector3[] keyFrameArray;
+    public string styleType="position";
 
     public void KeyFrame(Vector3[] keys, GameObject inputItem, float wD, string style)
     {
@@ -56,7 +57,7 @@ public class Keyframing : MonoBehaviour
 
                     for (int i = 0; i < keys.Length; i++)
                     {
-                       // inputItem.transform.rotation = keys[i];
+                        // inputItem.transform.rotation = keys[i];
                         yield return new WaitForSeconds(wD);
                         print("WAITING");
 
@@ -67,17 +68,17 @@ public class Keyframing : MonoBehaviour
 
 
         }
-           
-        
+
+
     }
 
 
     // Start is called before the first frame update
     void Start()
     {
-        Vector3[] vec = { new Vector2(160, 200), new Vector2(160, 300), new Vector2(160, 375)};
+        Vector3[] vec = { new Vector2(160, 200), new Vector2(160, 300), new Vector2(160, 375) };
 
-        KeyFrame(keyFrameArray, item, waitingDuration, "position");
+        KeyFrame(keyFrameArray, item, waitingDuration, styleType);
     }
 
 
@@ -87,9 +88,9 @@ public class Keyframing : MonoBehaviour
     void Update()
     {
 
-         time += Time.deltaTime;
+        time += Time.deltaTime;
 
     }
 
-  
+
 }

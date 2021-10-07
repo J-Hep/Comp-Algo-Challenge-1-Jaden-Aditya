@@ -27,7 +27,7 @@ public class EaseInEaseOut : MonoBehaviour
         float xCalc = Pos.x + (Target.x - Pos.x) * t;
         float yCalc = Pos.y + (Target.y - Pos.y) * t;
 
-        Vector2 woah = new Vector2(xCalc,yCalc);
+        Vector2 woah = new Vector2(xCalc, yCalc);
 
         return woah;
     }
@@ -45,13 +45,13 @@ public class EaseInEaseOut : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       
+
     }
 
     // Update is called once per frame
     void Update()
     {
-       
+
         t += Time.deltaTime;
 
         Item.transform.position = easeIn(t, Item.transform.position, varVec2, varDuration);

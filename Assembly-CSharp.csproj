@@ -53,8 +53,15 @@
     <UnityVersion>2020.3.18f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\EaseInEaseOut.cs" />
-    <Compile Include="Assets\Scripts\Keyframing.cs" />
+    <Compile Include="Assets\Script\SQUASH.cs" />
+    <Compile Include="Assets\Script\EaseInEaseOut.cs" />
+    <Compile Include="Assets\Script\Keyframing.cs" />
+    <Compile Include="Assets\Script\STRETCH.cs" />
+    <Compile Include="Assets\Script\AnimController.cs" />
+    <Compile Include="Assets\Script\LERP.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Overlays\NewSurfaceShader.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

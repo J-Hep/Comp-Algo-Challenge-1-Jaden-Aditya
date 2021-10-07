@@ -1,3 +1,7 @@
+/*
+ Jaden Hepburn Keyframing 100791169 Comp Algo Challenge 1
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

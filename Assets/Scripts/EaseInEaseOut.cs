@@ -15,21 +15,6 @@ public class EaseInEaseOut : MonoBehaviour
     public float varDuration = 500f;
     public Vector2 varVec2 = new Vector2(0, 0);
 
-   /* public float easeInFunc(float time, float start, float speed, float duration)
-    {
-      
-        time /= duration;
-        float uh = speed * time * time + start;
-        return uh;
-    }
-
-    public float easeOutFunc(float time,float start, float speed, float duration)
-    {
-        time /= duration;
-        float uh = -speed * t * (t-2) + duration;
-        return uh;
-    }*/
-
 
     // Pass in accumulative delta time, starting position, ending position and how long the animation will take
 
@@ -60,7 +45,7 @@ public class EaseInEaseOut : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //Item = GetComponent<GameObject>();
+       
     }
 
     // Update is called once per frame
@@ -69,18 +54,8 @@ public class EaseInEaseOut : MonoBehaviour
        
         t += Time.deltaTime;
 
-        //  Item.transform.position = easeIn(t, Item.transform.position, varVec2, varDuration);
         Item.transform.position = easeIn(t, Item.transform.position, varVec2, varDuration);
 
 
-
-        /* if (t < 1)
-         {
-             timerText.transform.position = new Vector2(easeInFunc(t ,timerText.transform.position.x, 1f, 1f), 50);
-             print(easeInFunc(t,1,1,1));
-         }*/
-
-
-        //  print(timerText.transform.position);
     }
 }

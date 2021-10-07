@@ -53,9 +53,11 @@
     <UnityVersion>2020.3.18f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Script\LERP.cs" />
     <Compile Include="Assets\Script\SQUASH.cs" />
+    <Compile Include="Assets\Script\LERP.cs" />
     <Compile Include="Assets\Script\STRETCH.cs" />
+    <Compile Include="Assets\Script\EaseInEaseOut.cs" />
+    <Compile Include="Assets\Script\Keyframing.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

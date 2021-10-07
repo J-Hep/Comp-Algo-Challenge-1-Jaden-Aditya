@@ -8,9 +8,9 @@ public class LERP : MonoBehaviour
     private bool lerp = false;
 
     public Vector3 startPos;
-    public Vector3 endPos=new Vector3(4,4,0);
+    public Vector3 endPos;
 
-    public float expectedTime = 2.7f, timeTaken;
+    public float expectedTime = 4.0f, timeTaken;
     
 
 

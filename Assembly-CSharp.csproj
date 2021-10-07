@@ -54,10 +54,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\SQUASH.cs" />
-    <Compile Include="Assets\Script\LERP.cs" />
-    <Compile Include="Assets\Script\STRETCH.cs" />
-    <Compile Include="Assets\Script\EaseInEaseOut.cs" />
     <Compile Include="Assets\Script\Keyframing.cs" />
+    <Compile Include="Assets\Script\LERP.cs" />
+    <Compile Include="Assets\Script\EaseInEaseOut.cs" />
+    <Compile Include="Assets\Script\STRETCH.cs" />
+    <Compile Include="Assets\Script\REDUCTION.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
